@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/androidViewDemo">
+
+    <fragment
+        android:id="@+id/androidViewDemo"
+        android:name="com.codelab.compose.playground.AndroidViewDemo"
+        android:label="AndroidView"/>
+
+    <fragment
+        android:id="@+id/composeViewDemo"
+        android:name="com.codelab.compose.playground.ComposeViewDemo"
+        android:label="ComposeView"/>
+
+    <fragment
+        android:id="@+id/ViewSystemDemo"
+        android:name="com.codelab.compose.playground.ViewSystemDemo"
+        android:label="ViewSystem"/>
+
+</navigation>

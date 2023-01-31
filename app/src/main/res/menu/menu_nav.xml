@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/androidViewDemo"
+        android:title="AndroidView" />
+    <item
+        android:id="@+id/composeViewDemo"
+        android:title="ComposeView" />
+    <item
+        android:id="@+id/ViewSystemDemo"
+        android:title="ViewSystem" />
+
+</menu>
